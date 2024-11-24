@@ -1,0 +1,135 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background: linear-gradient(to right, #f3f3f3, #e6e9f0);
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* Header Styles */
+header {
+    background: linear-gradient(to right, #1e90ff, #00bfff);
+    color: white;
+    text-align: center;
+    padding: 30px 0;
+}
+
+header h1.main-heading {
+    font-size: 3em;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+
+header h2 {
+    font-size: 2.2em;
+    margin-top: 10px;
+}
+
+header p {
+    margin-top: 5px;
+    font-size: 1.2em;
+}
+
+header a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Section Styles */
+section {
+    padding: 30px 0;
+    margin: 30px 0;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+h2.section-title {
+    color: #00bfff;
+    border-bottom: 3px solid #00bfff;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 2.2em;
+}
+
+ul {
+    list-style: none;
+    margin-left: 20px;
+}
+
+ul li {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+/* Project Styles */
+.project-item {
+    margin-bottom: 20px;
+}
+
+.project-item h3 {
+    color: #1e90ff;
+    font-size: 1.8em;
+}
+
+.project-item p {
+    margin-top: 10px;
+    font-size: 1.2em;
+    color: #666;
+}
+
+/* Footer Styles */
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 30px;
+}
+
+footer p {
+    font-size: 1.2em;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        width: 90%;
+    }
+
+    header h1.main-heading {
+        font-size: 2.5em;
+    }
+
+    header h2 {
+        font-size: 1.8em;
+    }
+}
+
+@media (max-width: 480px) {
+    header h1.main-heading {
+        font-size: 2em;
+    }
+
+    header h2 {
+        font-size: 1.5em;
+    }
+
+    h2.section-title {
+        font-size: 1.8em;
+    }
+}
